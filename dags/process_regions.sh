@@ -1,0 +1,1 @@
+curl -X GET "https://covid-api.com/api/regions?per_page=20&order=name&sort=asc" -H "accept: application/json" -H "X-CSRF-TOKEN: " -o /tmp/covid_regions.json;
